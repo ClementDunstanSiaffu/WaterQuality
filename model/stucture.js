@@ -12,6 +12,12 @@ const waterSchema = mongoose.Schema({
     },
     flowrate:{
         type:Number
+    },
+    date:{
+        type:String
+    },
+    time:{
+        type:String
     }
 })
 
